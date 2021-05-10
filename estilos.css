@@ -8,16 +8,25 @@
   background-image: url("/images/portada3.jpg"); }
 
 .bloque1 {
+  display: flex;
+  justify-content: center;
+  align-content: center;
   width: 540px
  720px
  960px; }
 
 .bloque2 {
+  display: flex;
+  justify-content: center;
+  align-content: center;
   width: 540px
  720px
  960px; }
 
 .bloque3 {
+  display: flex;
+  justify-content: center;
+  align-content: center;
   width: 540px
  720px
  960px; }
