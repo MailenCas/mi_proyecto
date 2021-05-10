@@ -1,0 +1,141 @@
+
+/*ETIQUETAS*/
+* {
+    margin: 0px;
+    padding: 0px;
+  }
+  
+body{
+    font-family: 'Noto Sans TC', sans-serif;
+ 
+}
+
+header{
+    background-image: linear-gradient(#B8B88E,#c0c095,#c7c7a4);
+    height: 200px;
+    border-color:#c0c084;
+    border-style: solid;
+    border-width: 10px;
+    font-size: 30px;
+}
+
+h1{
+    color:#7F636E;
+    font-size: large;
+}
+
+h2{
+    color:#232915;
+    font-size: 20px;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    font-weight: normal;
+    list-style: none;
+}
+
+
+li{
+    background-color: none;
+    width: 20%;
+    margin-right: 2px;
+    margin-top: 1px;;
+    margin-bottom: 10px;
+    text-align: center;
+}
+link{
+    color:#232915;
+}
+
+img{
+    width: 600px;
+    height: 700px;
+    margin-top:100px;
+}
+
+/*clases*/
+.TitulosPrincipales{
+    text-decoration: underline;
+    font-weight: bold;
+    background-color:#B8B88E;
+    height: 100px;
+    animation-name: aparecer;
+    animation-duration: 2s;
+}
+
+.TitulosDeTabla{
+    text-decoration: wavy;
+    font-weight: bold;
+
+}
+
+.Botones{
+    border-color: #EB5E28;
+    color: #EB5E28;
+    font-weight: bold;
+}
+
+/*INDEX*/
+.TituloIndex{
+    font-size: 100px;
+    font-family: sans-serif;
+    text-align:left;
+    text-decoration: none;
+    animation-name: aparecer;
+    animation-duration: 1s;
+}
+
+.ImagenDeInicio{
+    width: 600px;
+    height: 700px;
+    padding-bottom:0px;
+}
+
+.container2{
+    background-color: #EB5E28;
+    
+}
+
+
+.MainMenu ul{
+    list-style: none;
+    font-size: 0;
+
+}
+
+.MainMenu li{
+    display:inline-block;
+    position:relative;
+    font-size: 17px;
+    padding: 0px 40px;
+}
+
+.MainMenu ul ul{
+    position:absolute;
+    display:none;
+}
+
+.MainMenu ul ul li{
+    display:block;
+    background-color:#F7F7F2;
+}
+
+.MainMenu ul li:hover ul{
+    display:block;
+}
+
+.div2{
+    display: flex;
+    flex-direction: column;
+    background-color: #EB5E28;
+    height: auto;
+    width: auto;
+}
+/*ajuste div*/
+
+@media screen and (max-width: 600px) {
+    .div2 {
+        float: none;
+        width: 100%;
+      }
